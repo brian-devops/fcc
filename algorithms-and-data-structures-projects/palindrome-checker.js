@@ -10,9 +10,7 @@ function palindrome(str) {
     .split("")
     .reverse()
     .join("");
-  console.log(reversedStr);
   // if trimmed string and reversed string are the same it is a palindrome
-
   return (result = trimmedStr === reversedStr ? true : false);
 }
 
